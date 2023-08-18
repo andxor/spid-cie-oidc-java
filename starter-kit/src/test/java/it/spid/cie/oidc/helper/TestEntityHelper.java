@@ -23,7 +23,7 @@ public class TestEntityHelper {
 
 	@BeforeClass
 	public static void setUp() throws IOException {
-		wireMockServer = new WireMockServer();
+		wireMockServer = new WireMockServer(18000);
 
 		wireMockServer.start();
 
